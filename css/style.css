@@ -1,3 +1,189 @@
-body{
-    color:blue
+#header {
+    width: 100%;
+    height: 100%;
+    background-color: darkblue;
+}
+
+body {
+    background: #080808;
+    color: white;
+}
+
+.home {
+    padding: 10px 10%;
+    color: white;
+    
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: darkblue;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px; 
+    position: relative;   
+}
+
+nav ul li a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0,5s;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+#navbar-title {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+#link-list {
+    list-style: none;
+    display: flex;
+    column-gap: 16px;
+    margin: 0;
+    margin-top: 4px;
+}
+
+#link-list a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 4px;
+    border-radius: 8px;
+}
+
+#link-list a:hover {
+    background-color: gray;
+}
+
+#home {
+    position: relative;
+}
+
+#home-image {
+    border-radius: 50%;
+    border-color: black 2px;
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+.home-text {
+    margin: auto;
+}
+
+#about-image {
+    border-radius: 50%;
+    border-color: black;
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+#about {
+    background-color: blue;
+    color: white;
+    padding: 40px;
+    text-align: justify;
+}
+
+#experience {
+    background-color: blue;
+    text-align: left;
+    color: white;
+}
+
+#experience-content {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-top: none;
+    padding: 40px;
+}
+
+#experience-content div {
+    padding: 40px;
+}
+
+#skills {
+    background-color: blue;
+    color: white;
+    text-align: left;
+}
+
+#skills-content {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-top: none;
+    padding: 10px;
+
+}
+
+#skills-content div {
+    padding: 40px;
+}
+
+#interest {
+    background-color: blue;
+    color: white;
+    text-align: left;
+}
+
+#interest-content {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-top: none;
+    padding: 10px;
+}
+
+#interest-content div {
+    padding: 20px;
+}
+
+#awards {
+    background-color: blue;
+    color: white;
+    text-align: left;
+}
+
+#awards-content {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-top: none;
+    padding: 10px;
+}
+
+#awards-content div {
+    padding: 20px;
 }
